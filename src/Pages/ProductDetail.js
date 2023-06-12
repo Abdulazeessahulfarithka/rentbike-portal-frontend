@@ -63,7 +63,7 @@ const ProductDetail = () => {
             <b>Description :</b> {product.description}
           </h6>
           <h6>
-            <b> Offer Price :</b>
+            <b> Rent Per Hour :</b>
 
             <span className="card-price px-2">
               {product?.price?.toLocaleString("en-IN", {
