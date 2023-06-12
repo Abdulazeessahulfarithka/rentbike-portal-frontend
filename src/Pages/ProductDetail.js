@@ -88,7 +88,7 @@ const ProductDetail = () => {
               toast.success("Item Added to cart");
             }}
           >
-            ADD TO CART
+            BOOK NOW
           </button>
         </div>
       </div>
