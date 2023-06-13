@@ -63,7 +63,7 @@ const ProductDetail = () => {
             <b>Description :</b> {product.description}
           </h6>
           <h6>
-            <b> Rent Per Hour :</b>
+            <b> Rent Per Day :</b>
 
             <span className="card-price px-2">
               {product?.price?.toLocaleString("en-IN", {
@@ -78,7 +78,7 @@ const ProductDetail = () => {
             <s>{(product.price + product.price * disc).toFixed(2)}</s>
           </h6>
           <h6>
-            <b>Category :</b> {product?.category?.name}
+            
           </h6>
           <button
             class="btn btn-secondary ms-1"

@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light rounded border-bottom shadow-nav">
+      <nav className="navbar navbar-expand-lg navbar-light rounded border-bottom shadow-nav bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to={"/"}>
             <span className="fw-bold">

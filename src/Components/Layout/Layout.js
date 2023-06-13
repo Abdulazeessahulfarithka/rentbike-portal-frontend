@@ -7,9 +7,9 @@ const Layout = ({ children }) => {
     <>
       <Header />
 
-      <main style={{ minHeight: "70vh" }}>
+      <main style={{ minHeight: "70vh",backgroundColor:"bg-info"}}>
         {children}
-        <h2 style={{textAlign:"center",padding:"10px",color:"gray" }}>Include a range of bicycle types such as mountain bikes, road bikes, city bikes, and electric bikes.</h2>
+        <h4 style={{textAlign:"center",padding:"10px",color:"gray" }}>Include a range of bicycle types such as mountain bikes, road bikes, city bikes, and electric bikes.</h4>
         <img
           src="https://cdn.pixabay.com/photo/2014/07/05/16/44/biker-384921_1280.jpg"
           style={{

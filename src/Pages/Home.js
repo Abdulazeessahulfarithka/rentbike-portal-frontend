@@ -154,10 +154,10 @@ const Home = () => {
                         {p.price.toLocaleString("en-IN", {
                           style: "currency",
                           currency: "INR",
-                        })}
+                        })} Per Day
                       </h6>
                       <p>
-                        <s>{(p.price + p.price * disc).toFixed(2)}</s>
+                        <s>{(p.price + p.price * disc).toFixed(2)} Per Day</s>
                       </p>
                     </div>
                   </div>
